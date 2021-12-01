@@ -1,0 +1,236 @@
+body{
+    font-family: 'Work Sans', sans-serif
+}
+.header{
+    background-color:  #F3C6BD;
+    padding: 30px 0;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+}
+.logo>div:first-child{
+    margin-right:15px ;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+.logo-bold{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #2B292D;
+}
+.logo-regular{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(43, 41, 45, 0.6);
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+.header-li{
+    display: inline-block;
+}
+.header-li:not(:last-child){
+    margin-right: 20px;
+}
+.header-li > a{
+    font-size: 18px;
+    line-height: 25px;
+    color: #2B292D;
+    text-decoration: none;
+}
+.header-li > a:hover{
+    font-weight: bold;
+}
+.header-nav > div{
+    margin-left: 75px;
+}
+.button{
+    border: none;
+    font-size: 18px;
+    line-height: 13px;
+    color: #ffffff;
+    padding: 17px 28px;
+    border-radius: 2px;
+    cursor: pointer;
+     background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #3040C4;
+}
+.button:hover{
+    background:white;
+    color: #3040C4 ;
+    transition: 1s;
+}
+.section {
+    background: #F4F5F7;
+}
+.section__text {
+    display: flex;
+   justify-content: center;
+    padding: 77px 0;
+   
+}
+.paragraphe {
+     max-width: 555px; 
+      font-size: 22px;
+    line-height: 32px;
+    color: #2B292D;
+}
+.building {
+    padding-right: 30px;
+}
+.section_h3 {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 32px;
+    color: #2B292D;
+}
+.logos {
+   padding-top: 40px;
+}
+
+.section__logo {
+}
+.logos__list { 
+    display: flex;
+    justify-content: space-around;
+}
+.logos__link {
+    fill: #2B292D;
+    
+}
+.logos__img {
+     fill: #2B292D;
+}
+.bacteria {
+    display: grid;
+}
+.bacteria-text {
+}
+.bacteria-heading {
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 66px;
+    text-align: center;
+    color: #000000;
+}
+.bacteria-paragraphe {
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    max-width: 550px;
+    margin: 0 auto;
+    color: #172342;
+}
+.bacteria-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    
+    height: 50vh;
+    margin-top: 96px;
+}
+.bacteria-item{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+}
+.bacteria-item:nth-child(3) , .bacteria-item:nth-child(4){
+    grid-row: span 2;
+}
+
+.attracting-visitors-section{
+    background: #00A1C6;
+    padding: 110px 0;
+    margin: 120px 0;
+    
+    
+}
+.attracting-visitors-text {
+    
+}
+.attracting-paragraphe {
+    font-size: 22px;
+    line-height: 34px;
+    font-weight: bold;
+    text-align: center;
+    color: #2B292D;
+}
+.attracting-heading {
+    font-size: 56px;
+    line-height: 56px;
+    font-weight: bold;
+    max-width: 555px;
+    margin: 0 auto;
+    text-align: center;
+    color: #2B292D;
+}
+.attracting-paragraphe2 {
+    font-size: 24px;
+    line-height: 34px;
+    max-width: 555px;
+    margin: 0 auto;
+    text-align: center;
+    color: #2B292D;
+}
+.attracting-button {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+.attracting-button1{
+    border: none;
+    padding: 15px 30px;
+}
+.attracting-button1:nth-child(1){
+    font-size: 18px;
+    line-height: 13px;
+    font-weight: bold;
+    background: #3040C4;
+    color: #FFFFFF;
+}
+.attracting-button1:nth-child(2){
+    font-size: 18px;
+    line-height: 13px;
+    font-weight: bold;
+    color: #000000;
+}
+.attracting-photo-section {
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    margin: 128px 0;
+     gap: 0;
+    text-align: center;
+    
+}
+.attracting-photo {
+   max-width: 200px;
+    background: white;
+
+}
+.attracting-photo:hover{
+    background: #3040C4;
+    cursor: pointer;
+}
+.attracting-photo-text{
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: bold;
+    padding-top: 5px;
+    text-align: center;
+    color: #2B292D;
+}
+
+
